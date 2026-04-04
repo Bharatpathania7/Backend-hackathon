@@ -15,11 +15,6 @@ def send_sms(to_number: str, message: str):
 
     client = Client(account_sid, auth_token)
 
-    sms = client.messages.create(
-        body=message,
-        from_=from_number,
-        to=to_number
-    )
 
     return sms.sid
 def make_call(to_number: str):
