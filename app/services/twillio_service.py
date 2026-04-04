@@ -28,7 +28,7 @@ def make_call(to_number: str):
         twiml="""
         <Response>
             <Say voice="alice">
-                Emergency detected. Please check immediately. This is an automated alert from Smart Life Monitoring system.
+                Emergency detected. Please check immediately. This is an automated alert from Smart Life Monitoring system. thankuh for contCTING Us
             </Say>
         </Response>
         """,
